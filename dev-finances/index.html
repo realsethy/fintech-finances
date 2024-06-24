@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Finanças</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container my-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="text-center">Dev Finances</h1>
+            <button id="toggle-dark-mode" class="btn btn-secondary">Modo Escuro</button>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h2 class="h5">Adicionar Receita</h2>
+                <form id="form-receita">
+                    <div class="form-group">
+                        <label for="descricao-receita">Descrição</label>
+                        <input type="text" class="form-control" id="descricao-receita" placeholder="Descrição da receita">
+                    </div>
+                    <div class="form-group">
+                        <label for="valor-receita">Valor</label>
+                        <input type="number" class="form-control" id="valor-receita" placeholder="Valor da receita">
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block">Adicionar Receita</button>
+                </form>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h2 class="h5">Adicionar Despesa</h2>
+                <form id="form-despesa">
+                    <div class="form-group">
+                        <label for="descricao-despesa">Descrição</label>
+                        <input type="text" class="form-control" id="descricao-despesa" placeholder="Descrição da despesa">
+                    </div>
+                    <div class="form-group">
+                        <label for="valor-despesa">Valor</label>
+                        <input type="" class="form-control" id="valor-despesa" placeholder="Valor da despesa">
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-block">Adicionar Despesa</button>
+                </form>
+            </div>
+        </div>
+        <h2 class="h4 my-4">Lista de Transações</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Tipo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="lista-transacoes">
+                <!-- Itens serão adicionados aqui -->
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="fun.js"></script>
+</body>
+</html>

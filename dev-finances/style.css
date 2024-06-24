@@ -1,0 +1,44 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode h1,
+body.dark-mode h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .form-control {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+body.dark-mode .btn {
+    border: 1px solid #555555;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+body.dark-mode .btn-danger {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+body.dark-mode .btn-success {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+body.dark-mode .table {
+    background-color: #3a3737;
+}
+
+body.dark-mode .table th,
+body.dark-mode .table td {
+    border-color: #444444;
+    color: #ffffff;
+}
