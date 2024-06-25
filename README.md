@@ -82,5 +82,5 @@ Para alternar entre o modo claro e o modo escuro, clique no botão "Modo Escuro"
 
 ## Contato
 
-- Email: seu-email@example.com
-- GitHub: [seu-usuario](https://github.com/seu-usuario)
+- Email: henryzarlenga12@gmail.com
+- GitHub: [realsethy](https://github.com/realsethy)
