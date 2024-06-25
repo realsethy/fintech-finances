@@ -28,13 +28,13 @@ Nenhuma instalação é necessária, basta um navegador web moderno.
 1. Clone este repositório:
 
     ```sh
-    git clone https://github.com/seu-usuario/gerenciador-de-financas.git
+    git clone https://github.com/realsethy/fintech-finances.git
     ```
 
 2. Navegue até o diretório do projeto:
 
     ```sh
-    cd gerenciador-de-financas
+    cd fintech-finances
     ```
 
 3. Abra o arquivo `index.html` em seu navegador preferido.
